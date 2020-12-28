@@ -1,0 +1,7 @@
+CXXFLAGS = -I../../include
+OPTIMIZER = -g
+
+SelectColor.ofx : SelectColor.o
+  $(CXX) -bundle SelectColor.o -o SelectColor.ofx
+  mkdir -p SelectColor.ofx.bundle/Contents/MacOS/
+  cp SelectColor.ofx SelectColor.ofx.bundle/Contents/MacOS/
