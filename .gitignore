@@ -1,1 +1,6 @@
 .DS_Store
+
+*-32-release
+*-32-debug
+*-64-release
+*-64-debug
